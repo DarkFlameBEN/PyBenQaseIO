@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=62.6", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pybenqaseio"
+version = "1.0.0"
+description = "PyBEN QaseIO repository is an easy to use python utility class for Qase.io reporting solution"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+  { name = "Ben Moskovitch" },
+  { name = "Ben Moskovitch", email = "darkflameben@gmail.com" }
+]
+maintainers = [
+  { name = "Ben Moskovitch", email = "darkflameben@gmail.com" }
+]
+keywords = [
+  "python",
+  "qase",
+  "qase.io",
+  "reporting",
+  "utils",
+  "utilities",
+  "automation",
+  "automation-tools"
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13"
+]
+dependencies = [
+  "pybenutils>=7.5.0",
+  "qase-api-client",
+]
+
+[project.urls]
+Homepage = "https://github.com/DarkFlameBEN/pybenqaseio.git"
